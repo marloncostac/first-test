@@ -1,22 +1,37 @@
-# Compiled class file
-*.class
 
-# Log file
-*.log
+public class MeuPrograma {
+	public static void main(String[] args) {
+		System.out.println("Minha primeira aplicação Java!");
+		int idade;
+		idade=15;
+		System.out.println(idade);
+		int idadeNoAnoQueVem;
+		idadeNoAnoQueVem = idade + 1;
+		System.out.println(idadeNoAnoQueVem);
+		double pi = 3.14 * 2;
+		System.out.println(pi);
+		
+		int GastosJaneiro;
+		GastosJaneiro = 15000;
+		int GastosFevereiro;
+		GastosFevereiro = 19000;
+		int GastosMarco;
+		GastosMarco=23500;
+		int GastosTrimestral;
+		GastosTrimestral = GastosJaneiro + GastosFevereiro + GastosMarco;
+		System.out.println(GastosTrimestral);
+		int idade2 = 15;	
+		if (idade2 < 18) 
+		System.out.println ("Não pode entrar");
+		else System.out.println("Pode entrar");
+		int idade3 = 15;
+		boolean amigoDoDono = true;
+		if (idade3 < 18 && amigoDoDono == false) {
+		  System.out.println("Não pode entrar");
+		}
+		else {
+		  System.out.println("Pode entrar");
+		}
+	}
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+}
